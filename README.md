@@ -39,7 +39,7 @@ Run Dynamic Recongigure to change the parameters.
 ```
 rosrun rqt_reconfigure rqt_reconfigure
 ```
-![Dynamic Reconfigure Window](assets/rqt_params.jpg?raw=true)
+![Dynamic Reconfigure Window](assets/rqt_params.png?raw=true)
 
 ### Parameters Decription for  `depth2surface_normals_seg`
 
