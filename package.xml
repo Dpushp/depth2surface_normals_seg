@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>depth2surface_normals_seg</name>
+  <version>2.2.8</version>
+  <description>Depth image based surface normals based ground_segmentation</description>
+  <maintainer email="durgakant.pushp@tcs.com">Durgakant Pushp</maintainer>
+  <maintainer email="durgakant.pushp@tcs.com">Durgakant Pushp</maintainer>
+  <license>Apache 2.0</license>
+  
+  <buildtool_depend>catkin</buildtool_depend>
+  <depend>image_transport</depend>
+  <depend>cv_bridge</depend>
+  <depend>opencv2</depend>
+  <depend>nav_msgs</depend>
+  <depend>nodelet</depend>  
+  <depend>genmsg</depend>
+  <depend>roscpp</depend>
+  <depend>rospy</depend>
+  <depend>sensor_msgs</depend>
+  <depend>std_msgs</depend>
+  <depend>message_runtime</depend>
+  <depend>tf</depend>
+  <depend>dynamic_reconfigure</depend>
+  <depend>diagnostic_updater</depend>
+  <depend>librealsense2</depend>
+  <export>
+    <nodelet plugin="${prefix}/nodelet_plugins.xml" />
+  </export>
+</package>

@@ -1,0 +1,7 @@
+<launch>
+  <!-- Run the costmap node -->
+  <node name="sim_ground_segmentation" pkg="depth2surface_normals_seg" type="sim_segmentation_node" output="screen" >
+    <param name="publish_frequency" type="double" value="10.0" />
+    <rosparam file="$(find depth2surface_normals_seg)/params/params.yaml" command="load" />
+  </node>        
+</launch>

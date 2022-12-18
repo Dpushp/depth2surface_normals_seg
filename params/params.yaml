@@ -1,0 +1,15 @@
+# select the frame for publishing the images
+frame_id: odom
+
+# subscribers info
+depth_image_topic: "/realsense/depth/image_rect_raw"
+
+# camera info 
+# - select true if you are using realsense
+# - select false if you are using turtlebot3_camera
+is_realsense: true  
+
+
+# publishers info
+surface_normals_image_topic: "/normals"
+ground_segenmation_image_topic: "/ground_segmentation" 
