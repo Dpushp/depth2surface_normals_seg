@@ -3,7 +3,6 @@
 This repository uses depth image to find surface_normal image and ground/non-ground segmented image. The methods used to calculate the surface normals image are given below:
 
 Let $D$ be a depth image of size $(w\times h)$ whose $(i*w + j)$th pixel can be represented as $D_{i,j}$. 
-
 We assume that the $D$ forms a continuous surface in the real world. For any convex polygon (such as a triangle), a surface normal can be calculated as the vector cross product of two (non-parallel) edges of the polygon. Let's assume that $D_{i,j}$, $D_{i-1,j}$ and $D_{i,j-1}$ lies on the same plane and forms a triangular surface $s$. 
 The normal vector at any point on $s$ is given by
 
