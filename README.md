@@ -27,11 +27,9 @@ I_t^b =
 \end{cases}
 ```
 
-where $x, y, z$ are the X, Y, and Z components of the unit vector $\widehat{n}_{i,j}$ respectively. 
+where $x, y, z$ are the X, Y, and Z components of the unit vector $\widehat{n}_{i,j}$ respectively. We assume that all the surfaces whose normals are pointing upward (i.e. ground) are navigable for ground robots. Typically, we get some non-navigable segments (non-ground) inside the navigable segments and vice-versa in $I^b$. We assume all the navigable surface that is surrounded by non-navigable segments are also non-navigable as they are out of reach. We also assume that anything behind the non-navigable segments is occluded and hence non-navigable.
 
-We assume that all the surfaces whose normals are pointing upward (i.e. ground) are navigable for ground robots. 
-
-Typically, we get some non-navigable segments (non-ground) inside the navigable segments and vice-versa in $I^b$. We assume all the navigable surface that is surrounded by non-navigable segments are also non-navigable as they are out of reach. We also assume that anything behind the non-navigable segments is occluded and hence non-navigable. 
+![Dynamic Reconfigure Window](assets/depth2sn_seg.png)
  
 ## Prerequisites
 - Depth image topic from any simulated or real camera.
