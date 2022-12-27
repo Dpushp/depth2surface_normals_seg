@@ -1,4 +1,5 @@
-# depth2surface_normals_seg: A Ground Segmentation method using Surface Normals Image calculated from Depth Image. 
+# depth2surface_normals_seg: 
+## A Ground Segmentation method using Surface Normals Image calculated from Depth Image. 
 
 This repository uses depth image to find surface_normal image and ground/non-ground segmented image. The methods used to calculate the surface normals image are given below:
 
@@ -16,7 +17,7 @@ We first calculate the unit vector of the normal to the surface as
 \widehat{n}_{i,j} = \overrightarrow{n}_{i,j} / || \overrightarrow{n}_{i,j} ||
 ```
 
-We get the surface normal image $N$ by applying above equations on $D$. For a ground robot, we define $I_t^b \subseteq \left\ lbrace 0, 1 \right\}^{w\times h}$, where `0` represents navigable space (ground) and  `1 or 255` is the non-navigable space. The navigability information from $N$ can be obtained as 
+We get the surface normal image $N$ by applying above equations on $D$. For a ground robot, we define $I_t^b \subseteq { 0, 1 }^{w \times h}$, where `0` represents navigable space (ground) and  `1 or 255` is the non-navigable space. The navigability information from $N$ can be obtained as 
 
 ```math
 I_t^b = 
