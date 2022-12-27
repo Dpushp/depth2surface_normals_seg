@@ -16,7 +16,7 @@ We first calculate the unit vector of the normal to the surface as
 \widehat{n}_{i,j} = \overrightarrow{n}_{i,j} / || \overrightarrow{n}_{i,j} ||
 ```
 
-We get the surface normal image $N$ by applying above equations on $D$. For a ground robot, we define $I_t^b \subseteq \left\{ 0, 1 \right\}^{w\times h}$, where `0` represents navigable space (ground) and  `1 or 255` is the non-navigable space. The navigability information from $N$ can be obtained as 
+We get the surface normal image $N$ by applying above equations on $D$. For a ground robot, we define $I_t^b \subseteq \left\ lbrace 0, 1 \right\}^{w\times h}$, where `0` represents navigable space (ground) and  `1 or 255` is the non-navigable space. The navigability information from $N$ can be obtained as 
 
 ```math
 I_t^b = 
