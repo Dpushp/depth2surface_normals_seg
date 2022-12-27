@@ -1,5 +1,4 @@
-# depth2surface_normals_seg: 
-## A Ground Segmentation method using Surface Normals Image calculated from Depth Image. 
+# Ground Segmentation method using Surface Normals Image calculated from Depth Image. 
 
 This repository uses depth image to find surface_normal image and ground/non-ground segmented image. The methods used to calculate the surface normals image are given below:
 
